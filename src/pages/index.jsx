@@ -1,22 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Button from '../components/button';
 import './home.css';
 
 function Home() {
   return (
     <div className="container">
-      <Link to="kamado" className="item btn-red">
-        <div>Kamado</div>
-      </Link>
-      <Link to="nezuko" className="item btn-green">
-        <div>Nezuko</div>
-      </Link>
-      <Link to="saiyan" className="item btn-warning">
-        <div>Super Saiyan</div>
-      </Link>
-      <Link to="colossal" className="item btn-orange">
-        <div>Colossal</div>
-      </Link>
+      <Button link="kamado" title="Kamado" btnClass="button-1" />
+      <Button link="nezuko" title="Nezuko" btnClass="button-2" />
+      <Button link="colossal" title="Colossal" btnClass="button-3" />
+      <Button link="saiyan" title="Super saiyan" btnClass="button-5" />
     </div>
   );
 }
