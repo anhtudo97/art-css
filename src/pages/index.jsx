@@ -9,7 +9,7 @@ function Home() {
       <Button link="kamado" title="Kamado" btnClass="button-1" />
       <Button link="nezuko" title="Nezuko" btnClass="button-2" />
       <Button link="colossal" title="Colossal" btnClass="button-3" />
-      <Button link="saiyan" title="Super saiyan" btnClass="button-5" />
+      <Button link="super" title="Super saiyan" btnClass="button-5" />
     </div>
   );
 }

@@ -1,9 +1,9 @@
 import React from 'react';
-import './index.css';
+import './style.scss';
 
 function Kamado() {
   return (
-    <section className="wrapper">
+    <section className="wrapper_kamado">
       <div className="kamado">
         <div className="b-neck"></div>
         <div className="neck"></div>
